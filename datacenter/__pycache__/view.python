@@ -1,0 +1,5 @@
+from djamgo.shortcuts import render
+from django.http import HttpResponse
+
+def infex(request):
+	return HttpResponse("Hello")
